@@ -1,0 +1,79 @@
+.container-services
+{
+    width: 100%;
+    height: 100vh;
+    background: #252525;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    overflow: hidden;
+}
+
+.services-title
+{
+    color:#fff;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items:center ;
+    padding-top: 30px;
+}
+
+.services-title .title
+{
+    font-size: 61px;
+    font-weight: 700;
+    font-family: 'Montserrat';
+}
+
+.services-title .subtitle
+{
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Montserrat';
+    margin: 20px ;
+    width:667px ;
+}
+
+.services-information
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+
+
+.services-information .service 
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+    margin-right: 40px;
+    transition: all ease 2s;
+
+}
+
+.services-information .service img
+{
+    transition: all ease 1s;
+}
+
+
+.services-information .service img:hover
+{
+    background: rgb(255, 115, 0);
+    padding: 30px;
+}
+
+.services-information .service .service-info 
+{
+    color: #fff;
+    font-weight: 700;
+    font-size: 34px;
+    margin-top: 20px;
+}

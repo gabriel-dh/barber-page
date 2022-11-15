@@ -1,0 +1,97 @@
+.container-about
+{
+    width: 100%;
+    height: 100vh;
+    background: #252525;
+}
+
+.container-about .about
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.container-about .about .about-card
+{
+    
+    width: 588px;
+    height: 500px;
+    background: #d9d9d927; 
+}
+
+
+
+
+.container-about .about .about-card .card-background
+{
+    
+    background: rgba(0, 0, 0, 0.452); 
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.55);
+    width: 588px;
+    height: 500px;
+    margin-left: 30px;
+    margin-top: 30px;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+}
+
+
+.container-about .about .about-card 
+.card-background .card-title
+{
+    color: #fff;
+    font-family: 'Montserrat',sans-serif;
+    font-style: normal;
+    font-size:57px ;
+    font-weight: 700;
+    width: 400px;
+    text-align: left;
+    margin: 25px 0 30px;
+}
+
+.container-about .about .about-card 
+.card-background .card-information
+{
+    color: #fff;
+    font-family: 'Montserrat',sans-serif;
+    font-style: normal;
+    font-size:22px ;
+    font-weight: 700;
+    width: 490px;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+
+
+.container-about .about .about-card 
+.card-background .card-button button
+{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    border:2px solid #fff;
+    background: none;
+    margin-right:40px ;
+    padding: 20px 30px;
+    cursor: pointer;
+    width: 200px;
+    transition: all ease 1s;
+}
+
+.container-about .about .about-card 
+.card-background .card-button button:hover
+{
+    background: #fff;
+    color: #000;
+}

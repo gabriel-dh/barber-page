@@ -1,0 +1,137 @@
+.container-home
+{
+    overflow: hidden;
+    background: #000;
+    width: 100%;
+    height: 100vh;
+  
+}
+
+.container-home img
+{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  z-index: 1;
+}
+
+.container-home .background-dark
+{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  z-index: 5;
+  background: rgba(0, 0, 0, 0.192);
+}
+
+.home 
+{
+    position: relative;
+    z-index: 10;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.267);
+    display: flex;
+    flex-direction: column;
+}
+
+
+.home .home-header 
+{
+   display: flex;
+   justify-content: center;
+}
+
+
+.home .home-header button
+{
+    margin: 20px 50px;
+    border: none;
+    font-weight: 800;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    background: none;
+    color: #fff;
+    /* background-color: red; */
+    padding: 10px 20px;
+    transition: .1s all ease;
+}
+
+.home .home-header button:hover
+{
+    
+    background: #fff;
+    color: black;
+}
+
+
+.home .home-card 
+{
+    width: 806px;
+    border-radius: 21px;
+    background: #d9d9d91a;
+    box-shadow: 40px 40px 52px -1px rgba(0, 0, 0, 0.58);
+    backdrop-filter: blur(2px);
+    margin-top: 30px;
+    margin-left: 90px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    padding:  50px 58px 60px;
+}
+
+
+.home .home-card .card-text
+{
+    color: #fff;
+
+}
+
+
+.home .home-card .first
+{
+    font-weight: 700;
+    font-size: 63px;
+    font-style: normal;
+    width: 690px;
+    text-align: left;
+    line-height: 77px;
+    margin-bottom: 20px;
+}
+
+.home .home-card .second 
+{
+    font-family: "Montserrat";
+    font-size: 21px;
+    line-height: 25px;
+    font-weight: 700;
+    text-align: left;
+    width: 690px;
+}
+
+.home .buttons
+{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 0;
+    margin-left: 90px;
+}
+
+.home .buttons button
+{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    border:2px solid #fff;
+    background: none;
+    margin-right:40px ;
+    padding: 20px 30px;
+    cursor: pointer;
+}
